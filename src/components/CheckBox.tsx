@@ -7,7 +7,7 @@ export interface CheckboxProps {
 
 export function Checkbox() {
   const [isChecker, setIsChecker] = useState(false)
-  console.log(isChecker);
+  
   return (
     <label className={!isChecker ? 'w-4 h-4 rounded-full border-2  border-blue-700 cursor-pointer hover:border-blue-900' :
       'w-4 h-4 rounded-full bg-purple-900  cursor-pointer flex items-center justify-center hover:bg-purple-500'}
